@@ -32,7 +32,7 @@ class _CalculatorState extends State<Calculator> {
           DisplayCalculator(hint: "Enter a two number", controller: displayTwoController),
           SizedBox(height: 30),
           Text(
-            z.toString(),
+            result.toString(),
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 60
